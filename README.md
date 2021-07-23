@@ -1,75 +1,27 @@
-# TypeScript Next.js Chakra example
+# CloudComputing Project Frontend
 
-This is a really simple project that shows the usage of Next.js with TypeScript.
-
-## Deploy your own
-
-Deploy the example using [Vercel](https://vercel.com):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/vercel/next.js/tree/canary/examples/with-typescript)
-
-## How to use it?
-
-### Using `create-next-app`
-
-Execute
-[`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)
-with [npm](https://docs.npmjs.com/cli/init) or
-[Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+## Run on dev
 
 ```bash
-npx create-next-app --example with-typescript with-typescript-app
-# or
-yarn create next-app --example with-typescript with-typescript-app
-```
-
-### Download manually
-
-Download the example:
-
-```bash
-curl https://codeload.github.com/vercel/next.js/tar.gz/canary | tar -xz --strip=2 next.js-canary/examples/with-typescript
-cd with-typescript
-```
-
-Install it and run:
-
-```bash
-npm install
 npm run dev
-# or
-yarn
-yarn dev
 ```
 
-Deploy it to the cloud with
-[Vercel](https://vercel.com/import?filter=next.js&utm_source=github&utm_medium=readme&utm_campaign=next-example)
-([Documentation](https://nextjs.org/docs/deployment)).
+## Architecture
 
-## Notes
+<img width="686" alt="Screen Shot 2021-07-22 at 18 56 41" src="https://user-images.githubusercontent.com/28423571/126723088-ad0f6097-cbf9-4e81-ab48-dbbc3c14555b.png">
 
-This example shows how to integrate the TypeScript type system into Next.js.
-Since TypeScript is supported out of the box with Next.js, all we have to do is
-to install TypeScript.
+## Features
 
-```
-npm install --save-dev typescript
-```
+- Search for a product within the available categories
+- Filtrar la lista de productos dependiendo de su disponibilidad en tiendad, marca, etc
+- Access the store where the product is published
 
-To enable TypeScript's features, we install the type declarations for React and
-Node.
+### Web home page
 
-```
-npm install --save-dev @types/react @types/react-dom @types/node
-```
+<img width="1433" alt="Screen Shot 2021-07-22 at 18 21 49" src="https://user-images.githubusercontent.com/28423571/126723435-c1a45e82-ee83-4103-8dbd-ab470731de6a.png">
 
-When we run `next dev` the next time, Next.js will start looking for any `.ts`
-or `.tsx` files in our project and builds it. It even automatically creates a
-`tsconfig.json` file for our project with the recommended settings.
 
-Next.js has built-in TypeScript declarations, so we'll get autocompletion for
-Next.js' modules straight away.
+### Web product list by category
 
-A `type-check` script is also added to `package.json`, which runs TypeScript's
-`tsc` CLI in `noEmit` mode to run type-checking separately. You can then include
-this, for example, in your `test` scripts.
+<img width="1440" alt="Screen Shot 2021-07-22 at 18 22 17" src="https://user-images.githubusercontent.com/28423571/126723443-80348c8a-0208-45ac-9377-cf949f792ab6.png">
+
