@@ -16,6 +16,9 @@ npm run dev
 - Filtrar la lista de productos dependiendo de su disponibilidad en tiendad, marca, etc
 - Access the store where the product is published
 
+#### Pending
+- Deploy on Kubernetes
+
 ### Web home page
 
 <img width="1433" alt="Screen Shot 2021-07-22 at 18 21 49" src="https://user-images.githubusercontent.com/28423571/126723435-c1a45e82-ee83-4103-8dbd-ab470731de6a.png">
