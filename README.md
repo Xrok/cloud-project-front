@@ -16,8 +16,13 @@ npm run dev
 - Filtrar la lista de productos dependiendo de su disponibilidad en tiendad, marca, etc
 - Access the store where the product is published
 
-#### Pending
-- Deploy on Kubernetes
+## Docker Image
+
+[``` xrok/unleash-frontend:latest```](https://hub.docker.com/repository/docker/xrok/unleash-frontend)
+
+## Kubernetes Architecture
+[Deployed with Digital Ocean 🚀](http://143.244.215.119/)
+![docker-structure](https://user-images.githubusercontent.com/28423571/128601608-f88a7b63-dc1b-485f-8664-e11e4318a578.png)
 
 ### Web home page
 
